@@ -1,0 +1,10 @@
+class PCMmarkCal {
+	public static void main(String[] args){
+		int math=94;
+		int phy=95;
+		int chem=96;
+		int sum=math+phy+chem;
+		float avg=(float)sum/3;
+		System.out.println("Sam's average mark in PCM is "+avg+"%");
+		}
+	}
